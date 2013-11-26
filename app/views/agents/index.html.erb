@@ -1,0 +1,27 @@
+<h1>Listing Agents</h1>
+<%= link_to 'Add a new Agent', new_agent_path %> 
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Location</th>
+    <th>Contact</th>
+    <th>Phone</th>
+    <th>Email</th>
+    <th>Comments</th>
+    <th></th>
+    <th></th>
+  </tr>
+ 
+  <% @agents.each do |agent| %>
+    <tr>
+      <td><%= agent.name %></td>
+      <td><%= agent.location %></td>
+      <td><%= agent.contact %></td>
+      <td><%= agent.phone %></td>
+      <td><%= agent.email %></td>
+      <td><%= agent.comments %></td>
+      <td><%= link_to 'Show', agent %></td>
+      <td><%= link_to 'Edit', edit_agent_path(agent) %></td>
+    </tr>
+  <% end %>
+</table>

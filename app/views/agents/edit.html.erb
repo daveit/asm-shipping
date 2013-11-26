@@ -1,0 +1,49 @@
+<h2>Edit this Agent...</h2>
+<%= form_for :agent, url: agent_path(@agent.id), method: :patch  do |f| %>
+  <% if @agent.errors.any? %>
+  <div id="errorExplanation">
+    <h2><%= pluralize(@agent.errors.count, "error") %> prevented 
+    	this agent from being saved:</h2>
+	<ul>
+    <% @agent.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+    </ul>
+  </div>
+  <% end %>
+  <p>
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </p>
+ 
+  <p>
+    <%= f.label :location %><br>
+    <%= f.text_field :location %>
+  </p>
+  
+  <p>
+    <%= f.label :contact %><br>
+    <%= f.text_field :contact %>
+  </p>
+ 
+  <p>
+    <%= f.label :phone %><br>
+    <%= f.text_field :phone %>
+  </p>
+ 
+  <p>
+    <%= f.label :email %><br>
+    <%= f.text_field :email %>
+  </p>
+
+  <p>
+    <%= f.label :comments %><br>
+    <%= f.text_area :comments %>
+  </p>
+ 
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', agents_path %>

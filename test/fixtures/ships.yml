@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  eta_date: 2013-10-27
+  active: false
+  location_id: 
+  agent_id: 
+  status_id: 
+  staff_id: 
+
+two:
+  name: MyString
+  eta_date: 2013-10-27
+  active: false
+  location_id: 
+  agent_id: 
+  status_id: 
+  staff_id: 
