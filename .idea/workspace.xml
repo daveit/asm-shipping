@@ -32,10 +32,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1166">
+            <state line="57" column="0" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.9535865" vertical-offset="350" max-vertical-offset="1386">
               <folding />
             </state>
           </provider>
@@ -63,10 +63,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="3" selection-start="14" selection-end="14" vertical-scroll-proportion="0.045220967" vertical-offset="0" max-vertical-offset="973">
+            <state line="2" column="3" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
               <folding />
             </state>
           </provider>
@@ -102,7 +102,7 @@
       <file leaf-file-name="ship.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/admin/ship.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="9" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="638">
+            <state line="29" column="21" selection-start="641" selection-end="641" vertical-scroll-proportion="-25.52" vertical-offset="0" max-vertical-offset="902">
               <folding />
             </state>
           </provider>
@@ -132,9 +132,10 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/active_admin.css.scss" />
         <option value="$PROJECT_DIR$/app/admin/dashboard.rb" />
         <option value="$PROJECT_DIR$/config/initializers/active_admin.rb" />
-        <option value="$PROJECT_DIR$/app/admin/ship.rb" />
         <option value="$PROJECT_DIR$/README.rdoc" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/app/admin/ship.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -532,23 +533,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/dashboard.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="22" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/ship.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="9" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="638">
           <folding />
         </state>
       </provider>
@@ -562,7 +549,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="3" selection-start="14" selection-end="14" vertical-scroll-proportion="0.045220967" vertical-offset="0" max-vertical-offset="973">
+        <state line="2" column="3" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/ship.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="21" selection-start="641" selection-end="641" vertical-scroll-proportion="-25.52" vertical-offset="0" max-vertical-offset="902">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="0" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.9535865" vertical-offset="350" max-vertical-offset="1386">
           <folding />
         </state>
       </provider>

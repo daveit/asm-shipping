@@ -20,4 +20,16 @@ ActiveAdmin.register Ship do
     default_actions
   end
 
+  form do |f|
+    f.inputs "Ships" do
+      f.input :name, :label => "Ship Name", :input_html => { :size => 100 }
+      f.input :location
+      f.input :agent
+      f.input :staff
+      f.input :status
+      f.input :active
+      f.input :eta_date, :label => "ETA Date", :as => :datepicker, :input_html => { :size => 12 }
+    end
+    f.actions
+  end
 end
