@@ -77,19 +77,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="30" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.58731925" vertical-offset="168" max-vertical-offset="2064">
+            <state line="29" column="30" selection-start="1268" selection-end="1268" vertical-scroll-proportion="-21.12" vertical-offset="168" max-vertical-offset="2064">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="agent.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/admin/agent.rb">
+      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="3" selection-start="60" selection-end="60" vertical-scroll-proportion="-2.88" vertical-offset="0" max-vertical-offset="456">
+            <state line="19" column="4" selection-start="460" selection-end="460" vertical-scroll-proportion="0.5072303" vertical-offset="0" max-vertical-offset="1824">
               <folding />
             </state>
           </provider>
@@ -142,6 +142,7 @@
         <option value="$PROJECT_DIR$/app/admin/dashboard.rb" />
         <option value="$PROJECT_DIR$/config/initializers/active_admin.rb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
       </list>
     </option>
   </component>
@@ -489,13 +490,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/admin/staff.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="24" selection-start="57" selection-end="79" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="418">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/dashboard.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="22" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1166">
@@ -805,7 +799,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="30" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.58731925" vertical-offset="168" max-vertical-offset="2064">
+        <state line="29" column="30" selection-start="1268" selection-end="1268" vertical-scroll-proportion="-21.12" vertical-offset="168" max-vertical-offset="2064">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="4" selection-start="460" selection-end="460" vertical-scroll-proportion="0.5072303" vertical-offset="0" max-vertical-offset="1824">
           <folding />
         </state>
       </provider>
