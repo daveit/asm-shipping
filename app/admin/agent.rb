@@ -1,5 +1,8 @@
 ActiveAdmin.register Agent do
-  menu :priority => 3
+
+  menu :label => "Agents"
+  #menu :priority => 40
+  menu :parent => "Utility"
   # ... resource config ...
   controller do
     def permitted_params

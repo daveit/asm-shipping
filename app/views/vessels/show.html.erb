@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @vessel.name %>
+</p>
+
+<p>
+  <strong>Lloyds:</strong>
+  <%= @vessel.lloyds %>
+</p>
+
+<p>
+  <strong>Inmc:</strong>
+  <%= @vessel.inmc %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @vessel.phone %>
+</p>
+
+<p>
+  <strong>Fax:</strong>
+  <%= @vessel.fax %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @vessel.email %>
+</p>
+
+<p>
+  <strong>Extra:</strong>
+  <%= @vessel.extra %>
+</p>
+
+<%= link_to 'Edit', edit_vessel_path(@vessel) %> |
+<%= link_to 'Back', vessels_path %>

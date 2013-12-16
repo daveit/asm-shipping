@@ -1,19 +1,18 @@
 ActiveAdmin.register_page "Dashboard" do
 
-  menu :priority => 1, :label => proc{ I18n.t("active_admin.dashboard") }
-
+  menu :priority => 10, :label => proc{ I18n.t("active_admin.dashboard") }
   content :title => proc{ I18n.t("active_admin.dashboard") } do
     
-    panel "Active Ships" do
+    panel "Active Vessels" do
       #table_for Ship.order("eta_date desc").limit(5) do
       table_for Ship.where("ships.status_id='1'") do
         #<% Specimen.find(:all, :order => 'distribution_sheet_id desc', :limit => 10).each do |specimen| %>
-        column :name do |ship|
+        column "Vessel", :name do |ship|
           link_to ship.name, [:admin, ship]
         end
         column "Arrival Date", :eta_date
         column :agent
-        column :location
+        column "Berth", :location
         column :staff
         #column :status
         column "Current", :active

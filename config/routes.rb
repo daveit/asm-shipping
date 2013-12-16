@@ -1,5 +1,7 @@
 Shipping::Application.routes.draw do
   
+  resources :vessels
+
   resources :staffs
 
   resources :statuses

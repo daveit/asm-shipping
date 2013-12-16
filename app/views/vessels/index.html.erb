@@ -1,0 +1,39 @@
+<h1>Listing vessels</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Lloyds</th>
+      <th>Inmc</th>
+      <th>Phone</th>
+      <th>Fax</th>
+      <th>Email</th>
+      <th>Extra</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @vessels.each do |vessel| %>
+      <tr>
+        <td><%= vessel.name %></td>
+        <td><%= vessel.lloyds %></td>
+        <td><%= vessel.inmc %></td>
+        <td><%= vessel.phone %></td>
+        <td><%= vessel.fax %></td>
+        <td><%= vessel.email %></td>
+        <td><%= vessel.extra %></td>
+        <td><%= link_to 'Show', vessel %></td>
+        <td><%= link_to 'Edit', edit_vessel_path(vessel) %></td>
+        <td><%= link_to 'Destroy', vessel, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Vessel', new_vessel_path %>

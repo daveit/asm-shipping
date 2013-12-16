@@ -1,6 +1,8 @@
 ActiveAdmin.register Ship do
   
-  menu :priority => 2
+  menu :priority => 1
+  menu :label => "Vessels"
+
   # ... resource config ...
   controller do
     def permitted_params
@@ -9,26 +11,26 @@ ActiveAdmin.register Ship do
   end
   
   index do
-    column :name
-    column :location
+    column "Vessel", :name
+    column "Berth", :location
     column :agent
+    column "ETA Date", :eta_date
     column :staff
     column :status
     column :active
-    column :eta_date
-    
+
     default_actions
   end
 
   form do |f|
     f.inputs "Ships" do
-      f.input :name, :label => "Ship Name", :input_html => { :size => 100 }
-      f.input :location
+      f.input :name, :label => "Vessel", :input_html => { :size => 100 }
+      f.input :location, :label => "Berth"
       f.input :agent
+      f.input :eta_date, :label => "ETA Date", :as => :datepicker, :input_html => { :size => 12 }
       f.input :staff
       f.input :status
       f.input :active
-      f.input :eta_date, :label => "ETA Date", :as => :datepicker, :input_html => { :size => 12 }
     end
     f.actions
   end

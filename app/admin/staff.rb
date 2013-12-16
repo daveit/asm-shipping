@@ -1,7 +1,8 @@
 ActiveAdmin.register Staff do
   
-  menu :priority => 5
+  #menu :priority => 60
   menu :label => "Staff"
+  menu :parent => "Utility"
 
   # ... resource config ...
   controller do
